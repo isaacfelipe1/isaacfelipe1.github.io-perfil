@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="index.html">IF.Lima</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+    
+        </nav>
+        <header id="tela">
+            <img src="autor.jpg" alt="" id="foto">
+            <h1>Isaac Felipe</h1>
+            <p>Programador, estudante de T.I e Desenvolvedor Web.</p>
+            <p>Projetos<br>1</p>
+
+        </header>
+        <section id="conteudo">
+            <h2>Portifólio</h2>
+            <p>Site-currilum Desenvolvido com layout próprio, visite meu curriculum e saiba mais sobre minha carreira acadêmica .</p>
+            <a href="index.html" class="botao">Ver Mais</a>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>No blog contém conteúdos de exercicios feitos em linguagem C, Java, e outras coisas.</p>
+            <a href="#blog" class="botao"> Ir para o Blog</a>
+        </section>
+        <section id="experiencia">
+            <h2>Experiência</h2>
+            <p>Em 2017 fui tutor das séries: 1º ao 5º- SEMED. Onde tive uma a oportunidade de lecionar</p>
+            <a href="sobre.html" class="botao">Ler Sobre</a>
+        </section>
+    <footer >
+        <p>Isaac Felipe-2020. contato:<br><a href="mailto:email@contato.com"> ifsantoslima26@gmail.com</a></p>
+        <p>Graduando  em Licenciatura em computaçao pela UEA.</p>
+    </footer>
+</div>
+<script>
+    function typeWrite(elemento){
+        const textArray = elemento.innerHTML.split('');
+        elemento.innerHTML= '';
+       textArray.forEach((letra, i)=>{
+           setTimeout(()=> elemento.innerHTML += letra, 79 * i);
+
+           
+       });
+
+           
+            
+    }
+    const titulo = document.querySelector('h1');
+    const h2= document.querySelector('h2');
+    const p= document.querySelector('p');
+    typeWrite(titulo);
+    typeWrite(h2);
+    typeWrite(p);
+
+    
+    
+</script>
+    
+</body>
+</html>
