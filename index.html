@@ -24,13 +24,13 @@
 
         </header>
         <section id="conteudo">
-            <h2>Portifólio</h2>
+            <h2>Portfólio</h2>
             <p>Site-curriculum Desenvolvido com layout próprio, visite meu curriculum e saiba mais sobre minha carreira acadêmica .</p>
             <a href="https://isaacfelipe1.github.io/meu_curriculum/" class="botao">Ver Portfólio</a>
         </section>
         <section id="blog">
             <h2>Blog</h2>
-            <p>No blog contém conteúdos de exercícios resolvidos em linguagem C, Java, e outras coisas.</p>
+            <p>No blog,contém conteúdos de exercícios resolvidos em linguagem C, Java, e outras coisas.</p>
             <a href="https://blogfelipe724351102.wordpress.com" class="botao"> Ir para o Blog</a>
         </section>
         <section id="experiencia">
@@ -43,29 +43,5 @@
         <p><strong>Graduando  em Licenciatura em computação pela UEA.</strong></p>
     </footer>
 </div>
-<script>
-    function typeWrite(elemento){
-        const textArray = elemento.innerHTML.split('');
-        elemento.innerHTML= '';
-       textArray.forEach((letra, i)=>{
-           setTimeout(()=> elemento.innerHTML += letra, 79 * i);
-
-           
-       });
-
-           
-            
-    }
-    const titulo = document.querySelector('h1');
-    const h2= document.querySelector('h2');
-    const p= document.querySelector('p');
-    typeWrite(titulo);
-    typeWrite(h2);
-    typeWrite(p);
-
-    
-    
-</script>
-    
 </body>
 </html>
