@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Isaac Felipe</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="index.html">IF</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+    
+        </nav>
+        <header>
+            <h1>Sobre Mim! </h1>
+            <p></p>
+        </header>
+        <section id="sobre">
+            <h2> </h2>
+            <p>Meu nome é Isaac Felipe Dos Santos Lima, sou técnico em Informática, especificamente na área de desenvolvimento Web, tenho conhecimento sólido em linguagem de programação, como as linguagens C e Java.</p>
+           <p>As IDE que utilizo são vsCODE, Netbeans e Dev-C++, gosto de aprender novas ferramentas desenvolvidos para elaboração das tecnologias. Como também tenho experiência pedagógica.</p>
+           <p> Em 2017,fui tutor das séries: 1º ao 5º- SEMED. Onde tive oportunidade de lecionar para crianças maravilhosos (a) e inteligentes. Entre em contato para conhecer sobre os projetos que já realizei.</p>  
+        </section>
+        <footer >
+            <p>Isaac Felipe-2020. contato:<br><a href="mailto:email@contato.com"> ifsantoslima26@gmail.com</a></p>
+            <p>Graduando  em Licenciatura em computaçao pela UEA.</p>
+        </footer>
+
+    </div>
+    <script>
+        function typeWrite(elemento){
+            const textArray = elemento.innerHTML.split('');
+            elemento.innerHTML= '';
+           textArray.forEach((letra, i)=>{
+               setTimeout(()=> elemento.innerHTML += letra, 79 * i);
+    
+               
+           });
+    
+               
+                
+        }
+        const titulo = document.querySelector('h1');
+        const h2= document.querySelector('h2');
+        const p= document.querySelector('p');
+        typeWrite(titulo);
+        typeWrite(h2);
+        typeWrite(p);
+    
+        
+        
+    </script>
+</body>
+</html>
