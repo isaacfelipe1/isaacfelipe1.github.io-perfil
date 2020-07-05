@@ -55,6 +55,20 @@ header{
 
 
 }
+#sobre{
+    background-color: #f1f1f1;
+    color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items:left ;
+    text-align: center ;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 #experiencia{
     background-color: #f1f1f1;
     color: #000000;
@@ -99,6 +113,7 @@ nav ul{
 nav ul li{
     text-align: center;
     width: 100%;
+
 }
 nav ul li a{
     display: inline-block;
@@ -140,6 +155,30 @@ nav ul li:hover{
 .botao:hover{
     background-color: #606060;
     color: #ffffff;
+}
+h1::after{
+    content: '|';
+    opacity: 1;
+    animation : pisco .7s infinite; 
+}
+#tela p::after{
+    content: '|';
+    opacity: 1;
+    animation : pisco .7s infinite; 
+}
+p{
+    padding: 0;
+    
+
+}
+@keyframes pisco{
+    0%, 100%{
+    opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+
 }
 @media screen and (min-width: 1200px){
     /*
