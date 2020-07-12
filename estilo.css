@@ -95,6 +95,8 @@ nav{
     flex-direction:row;
     align-items: center;
     background-color: #292929;
+position:fixed;
+width:100%;
     
     
 }
