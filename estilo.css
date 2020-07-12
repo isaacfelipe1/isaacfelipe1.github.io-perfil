@@ -28,7 +28,6 @@ font-family:14pt;
 }
 header{
     background-color: #171717;
-margin-top:40px;
     color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,8 +94,6 @@ nav{
     flex-direction:row;
     align-items: center;
     background-color: #292929;
-position:fixed;
-width:100%;
     
     
 }
