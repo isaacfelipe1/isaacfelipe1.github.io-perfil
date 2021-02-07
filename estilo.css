@@ -14,7 +14,7 @@ footer{
     color: #ffffff;
     text-align: center;
     align-items: center;
-    background-color: #0A0A0A;
+    background-color: #0F1100;
     padding: 36px;
     flex-direction: column;
     
@@ -34,7 +34,7 @@ p{
 font-family:14pt;
 }
 header{
-    background-color: #171717;
+    background-color: #0F1100;
     color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,8 +50,8 @@ header{
 
 }
 #blog{
-    background-color: #f1f1f1;
-    color: #000000;
+    background-color: #000312;
+    color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,8 +65,8 @@ header{
 
 }
 #sobre{
-    background-color: #f1f1f1;
-    color: #000000;
+    background-color: #000312;
+    color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,8 +79,8 @@ header{
 
 }
 #experiencia{
-    background-color: #f1f1f1;
-    color: #000000;
+    background-color: #332A2A;
+    color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,7 +100,7 @@ nav{
     display: flex;
     flex-direction:row;
     align-items: center;
-    background-color: #292929;
+    background-color: #C3CB00;
     
     
 }
@@ -136,8 +136,8 @@ nav ul li:hover{
     background-color:#606060;
 }
 #conteudo{
-    background-color: #f1f1f1;
-    color: #000000;
+    background-color: #545766;
+    color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,10 +174,6 @@ h1::after{
     content: '|';
     opacity: 1;
     animation : pisco .7s infinite; 
-}
-
-    
-
 }
 @keyframes pisco{
     0%, 100%{
