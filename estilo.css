@@ -14,7 +14,7 @@ footer{
     color: #ffffff;
     text-align: center;
     align-items: center;
-    background-color: #0F1100;
+    background-color: #000312;
     padding: 36px;
     flex-direction: column;
     
@@ -50,7 +50,7 @@ header{
 
 }
 #blog{
-    background-color: #000312;
+    background-color: #332A2A;
     color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ header{
 
 }
 #experiencia{
-    background-color: #332A2A;
+    background-color: #545766;
     color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
