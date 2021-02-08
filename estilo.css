@@ -1,12 +1,12 @@
 body{
     margin: 0;
     height: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
 
 }
 h1,h2,h3{
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
     font-weight: 700;
 
 }
@@ -43,8 +43,8 @@ header{
     flex-direction: column;
     align-items: center;
     text-align: center  ;
-    padding: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
 
 
 
@@ -60,7 +60,7 @@ header{
     align-items: center;
     text-align: center  ;
     padding: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
 
 
 }
@@ -75,7 +75,7 @@ header{
     align-items:left;
     text-align: left;
     padding: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
 
 }
 #experiencia{
@@ -89,7 +89,7 @@ header{
     align-items: center;
     text-align: center  ;
     padding: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
 
 }
 #tela p{
@@ -101,6 +101,9 @@ nav{
     flex-direction:row;
     align-items: center;
     background-color: #C3CB00;
+    width: 100%;
+    position: fixed;
+    
     
     
 }
@@ -130,10 +133,9 @@ nav ul li a{
     width: 100%;
     text-decoration: none;
     color: #f1f1f1;
-
 }
 nav ul li:hover{
-    background-color:#606060;
+    background-color:#000312;
 }
 #conteudo{
     background-color: #545766;
@@ -143,15 +145,20 @@ nav ul li:hover{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center  ;
+    text-align: left justify;
     padding: 25px;
 
 
 }
+#fotosobre img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
 #conteudo p{
     font-size: 13pt;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
 }
 .botao{
     color: #ffffff;
