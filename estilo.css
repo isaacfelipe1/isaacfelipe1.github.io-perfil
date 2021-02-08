@@ -1,7 +1,7 @@
 body{
     margin: 0;
     height: 0;
-    font-family: 'Belleza', sans-serif;
+  
 
 }
 h2,h3{
@@ -170,7 +170,7 @@ nav ul li:hover{
 }
 #conteudo p{
     font-size: 13pt;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
+    font-family: 'Belleza', sans-serif;
 }
 .botao{
     color: #ffffff;
