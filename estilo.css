@@ -43,7 +43,7 @@ p{
 font-family:14pt;
 }
 header{
-    background-image:linear-gradiente(90deg,yellow,rba(0,140,255),black);
+    background-image: linear-gradient(90deg, yellow,rgb(0, 140, 255), black);
     color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,8 +150,8 @@ nav ul li:hover{
     background-color:#000312;
 }
 #conteudo{
-    background-color: #545766;
-    color: #ffffff;
+     background-color: #ffffff;
+    color: #000000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
