@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     height: 0;
@@ -53,7 +54,7 @@ header{
     align-items: center;
     text-align: center  ;
     padding: 80px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans sans-serif;
 
 
 
@@ -69,7 +70,7 @@ header{
     align-items: center;
     text-align: center  ;
     padding: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans sans-serif;
 
 
 }
@@ -84,7 +85,7 @@ header{
     align-items:left;
     text-align: left;
     padding: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans sans-serif;
 
 }
 #experiencia{
@@ -98,7 +99,8 @@ header{
     align-items: center;
     text-align: center  ;
     padding: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans sans-serif;
+    
 
 }
 #experiencia ul li{
@@ -219,3 +221,9 @@ h1::after{
         width: 70%;
     }
 }
+
+
+
+
+
+
