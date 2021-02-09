@@ -43,7 +43,7 @@ p{
 font-family:14pt;
 }
 header{
-    background-color: #0F1100;
+    background-image:linear-gradiente(90deg,yellow,rba(0,140,255),black);
     color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
