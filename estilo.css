@@ -200,6 +200,10 @@ h1::after{
     opacity: 1;
     animation : pisco .7s infinite; 
 }
+#redessocias img{
+    width: 10%;
+
+}
 @keyframes pisco{
     0%, 100%{
     opacity: 1;
@@ -254,6 +258,11 @@ h1::after{
         position: relative;       
         
     }
+     #redessocias img{
+     width: 4%;
+ 
+ }
+   
    
    
    
