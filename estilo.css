@@ -204,6 +204,22 @@ h1::after{
     width: 10%;
 
 }
+ #duvidas{
+     background-color: #000312;
+     color: #ffffff;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     align-items:left;
+     text-align: left;
+     padding: 25px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans sans-serif;
+     border-bottom: white;
+ 
+ }
+   
 @keyframes pisco{
     0%, 100%{
     opacity: 1;
