@@ -7,9 +7,11 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Press+Start+2P&display=swap" 
+rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Lato&family=Montserrat&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Belleza&family=Lato&family=Montserrat&family=Press+Start+2P&
+display=swap" rel="stylesheet">
      <meta  property="og:title" content="Isaac Felipe- Desenvolvedor WEB"/>
     <meta property="og:type" content="Portfólio"/>
     <meta property="og:url" content="https://isaacfelipe1.github.io/isaacfelipe1.github.io-perfil"/>
@@ -22,25 +24,24 @@
             <a href="index.html">IF</a>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="mailto:isaacfylype18@gmail.com">contato</a></li>
+                <li><a href="mailto:isaacfylype18@gmail.com" >contato</a></li>
             </ul>
     
         </nav>
-        <header id="tela">
+        <header id="tela"  onclick="clicou()">
             <img src="autor1.png" alt="" id="foto">
             <h1>Isaac Felipe</h1>
-            <p>-Front-End.</p>
+            <p>- Desenvolvedor Front-End.</p>
             <p><strong>Projetos</strong><br><strong>1</strong></p>
-
         </header>
-        <section id="conteudo">
+        <section id="conteudo" onclick="clicar()">
             <h2>Sobre mim</h2>
             <p>Olá, seja bem-vindo ao meu Portfólio!</p>
-            <p>Me chamo <strong>Isaac Felipe dos Santos lima</strong>, tenho formação técnico em Informática pelo 
+            <p>Me chamo <strong>Isaac Felipe dos Santos lima</strong>, tenho formação em técnico em Informática pelo 
 Instituto Federal de Educação, ciência e tecnologia do amazonas-IFAM.</p>
             <p>Atualmente sou Graduando do curso de licenciatura em computação pela <em> Universidade do Estado do 
 Amazonas-UEA</em></p> 
-                <img src="sobremim.png" alt="sobre mim">
+                <img src="sobremim.png" alt="sobre mim" id="sobremim">
             <p>Tenho conhecimento nas linguagem de programação como : JavaScript, java, linguagem C. gosto de participar 
 de projetos de extensão voltado para ensino de tecnologia web, meus assuntos favoritos são:</p> 
             <ul>
@@ -54,11 +55,12 @@ Institutos Federais de tecnologia, também gosto de fazer parte de palestras e p
 (Client-side) nas escolas de ensino fundamental e médio!</p>
             <a href="mailto:isaacfylype18@gmail.com" class="botao">Convidar para meu Workshop! &#x1F44B;</a>
         </section>
+
         <section id="blog">
             <h2> Meu Blog</h2>
             <p>No blog, você encontrará conteúdos de exercícios resolvidos em linguagem C e Java feitos por mim, 
-visite!<p>
-                <p>O blog foi feito para auxiliar os alunos iniciantes em técnico em Informática, se você está cursando o 
+visite!</p>
+    <p>O blog foi feito para auxiliar os alunos iniciantes em técnico em Informática, se você está cursando o 
 curso, visite. É especialmente para você.</p>
             <a href="https://blogfelipe724351102.wordpress.com" class="botao"> Ver Blog</a>
         </section>
@@ -78,14 +80,17 @@ curso, visite. É especialmente para você.</p>
                 <li>&#x1F449;Fundamentos de manipulação e Análise de Dados Dados</li>
                 <hr>
             </ul>
-            <a href="curriculum-isaacFelipe.pdf" download="curriculum-isaacFelipe.pdf" type="application/pdf" 
-class="botao">Baixe meu curriculum</a>
+            <a href="curriculum-Isaac Felipe.pdf" download="curriculum-Isaac.pdf" type="application/pdf" 
+class="botao" id="botaobaixar">Baixe meu curriculum</a>
         </section>
     <footer >
         
-        <p>Isaac Felipe-  &copy; 2021 &reg; ||contato:</p>
-<p><a href="mailto:isaacfylype18@gmail.com"><strong>ifsantoslima26@gmail.com</strong></a></p>
+        <p>Isaac Felipe-  &copy; 2021 &reg;|| Redes sociais</p>
+        <a href="#" id="redessocias"><img src="instagram.png" alt=""></a>
+        <a href="#" id="redessocias"><img src="linkedin.png" alt=""></a>
+        <a href="#" id="redessocias"><img src="facebook.png" alt=""></a>
         <p><strong>Graduando  em Licenciatura em computação pela UEA.</strong></p>
+  
     </footer>
         <a  class="btn" href="https://api.Whatsapp.com/send?phone=5592993661475" target="_blank"><img src="whatsapp.png" 
 alt="Whatsapp" width="70px" height="70px" title="Quero falar com Atendimento"></a>
@@ -93,4 +98,7 @@ alt="Whatsapp" width="70px" height="70px" title="Quero falar com Atendimento"></
 <script> function typeWrite(elemento){ const textArray = elemento.innerHTML.split(''); elemento.innerHTML= ''; textArray.
 forEach((letra, i)=>{ setTimeout(()=> elemento.innerHTML += letra, 79 * i); }); } const titulo = document.querySelector
 ('h1'); const h2= document.querySelector('h2'); const p= document.querySelector('p'); typeWrite(titulo); typeWrite(h2); 
-typeWrite(p); </script>
+typeWrite(p); 
+</script>
+</body>
+</html>
