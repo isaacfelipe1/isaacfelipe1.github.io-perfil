@@ -88,6 +88,13 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans sans-serif;
 
 }
+#duvidas h2{
+    text-align: center;
+    align-items: center;
+}
+#duvidas p{
+    color: #f1f1ff;
+}
 #experiencia{
     background-color: #545766;
     color: #ffffff;
