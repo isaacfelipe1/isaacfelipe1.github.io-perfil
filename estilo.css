@@ -5,6 +5,16 @@ body{
   
 
 }
+img#foto{
+border-radius: 100vw;
+border-top: 50%;
+margin-top: 30px;
+
+}
+img#sobremim{
+    border-radius: 20px;
+
+}
 h2,h3{
     margin: 0;
     font-family: 'Belleza', sans-serif;
@@ -289,6 +299,12 @@ h1::after{
      width: 4%;
  
  }
+    img#foto{
+    border-radius: 300vw;
+    border-top: 50%;
+    margin-top: 30px;
+    
+    }
    
    
    
