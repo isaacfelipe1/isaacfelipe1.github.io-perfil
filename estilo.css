@@ -25,6 +25,7 @@ h1{
     margin: 0;
     font-weight: 700;
     font-family: 'Press Start 2P', cursive;
+    margin-top: 5px;
     
   
     
@@ -52,6 +53,7 @@ footer a{
         }
 p{
 font-family:14pt;
+ margin: 0;
 }
 header{
     background-image: linear-gradient(90deg, yellow,red);
